@@ -1,0 +1,17 @@
+{
+  "name": "asasvirtuais-tools",
+  "private": true,
+  "scripts": {
+    "build": "tsc"
+  },
+  "exports": {
+    "./*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "asasvirtuais-blueprint": "^2.0.2"
+  }
+}
